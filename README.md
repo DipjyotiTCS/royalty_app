@@ -1,7 +1,6 @@
 # Royalty Reconciliation Tool — Flask Version
 
-This is a Python/Flask wrapper around your existing frontend build.  
-The UI will look and behave exactly like your current app because it uses the same compiled assets from the Vite/React build (`dist/`).
+This is a Python/Flask wrapper around existing frontend build. It uses the same compiled assets from the Vite/React build (`dist/`).
 
 ## Project structure
 
@@ -37,5 +36,5 @@ The UI will look and behave exactly like your current app because it uses the sa
 
 4. Open your browser at: <http://localhost:5000>
 
-The frontend is served from the `dist/` directory, so the look and feel will stay **exactly** the same as your current TypeScript/Node-based build.
-You can now extend `app.py` with API routes, database connections, authentication, etc., fully in Python.
+The frontend is served from the `dist/` directory.
+Extend `app.py` with API routes, database connections, authentication, etc., fully in Python.
